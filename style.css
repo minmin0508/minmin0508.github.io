@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAFA;
+  padding: 20px;
+  font-family: Arial;
+}
+
+ul{
+
+	float: right;
+
+
+}
+
+ul li {
+display: inline;
+
+}
+
+
+ul li a{
+
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+
+}
+
+
+.show{
+
+  	display: none;
+  }
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.column2 {
+  float: left;
+  width: 66%;
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .column {
+    width: 50%;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+ 
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .column {
+    width: 100%;
+  }
+
+h1{
+
+	text-align: center;
+}
+
+ul li {
+display: block;
+text-align: center;
+padding: 10px;
+background-color: white;
+margin: 10px;
+
+}
+
+ul{
+
+	float: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+
+.column2 {
+  width: 100%;
+}
+
+.show{
+
+  	display: block;
+  	background-color: transparent;
+  	
+  }
+
+.hide{
+	display: none;
+	background-color: transparent;
+
+}
+
+#footerAmber{
+	font-size: 15px;
+	float: left;
+
+} 
+
+#ulAmber{
+
+	margin: 0px;
+	padding-left: 0px;
+	float: right;
+    width: 54%;
+    font-size: 12px;
+
+
+}
+
+
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.Portfolio{
+
+background-color: white;
+padding: 10px;
+
+}
+
+
+p{
+	color: #B1B1B1;
+}
+
+
+h3{
+
+	text-align: center;
+}
+
+footer{
+
+text-align: center;
+
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+
+}
+
+
+
+
+
+
